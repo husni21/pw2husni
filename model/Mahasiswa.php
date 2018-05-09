@@ -5,7 +5,7 @@ class Mahasiswa extends model{
 	public $nim;
 	public $ipk;
 
-	public function munculkanNama()
+	public static function munculkanNama()
 	{
 		echo "halo saya husni";
 	}
